@@ -1,0 +1,5 @@
+Steps:
+- Install less globally
+- Create a main.less file and include antd.less in it
+- Redeclare the default variables you want to override
+- Compile main.less to css and include that file in CSS
