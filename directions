@@ -1,5 +1,6 @@
 Steps:
 - Install less globally
-- Create a main.less file and include antd.less in it
+- Create a file 'src/styles/main.less' and include antd.less in it
 - Redeclare the default variables you want to override
-- Compile main.less to css and include that file in CSS
+- Compile main.less to css using 'npm run changeStyle' and include on file
+0'src/App.tsx' the following statement "import './styles/css/antd.css'; "
